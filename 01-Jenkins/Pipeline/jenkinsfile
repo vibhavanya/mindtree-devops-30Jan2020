@@ -41,7 +41,7 @@ node {
                     def uploadSpec= """{
                         "files": [{
                         "pattern": "/root/mindtree-devops-30Jan2020/01-Jenkins/Code/petclinic/target/*.war",
-                        "target": "petclinic"}]
+                        "target": "example-repo-local"}]
                     }"""
         server.upload(uploadSpec)
         
