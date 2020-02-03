@@ -1,5 +1,5 @@
 variable "key_name" {
-  default = "oregon"
+  default = "oregon1"
 }
 
 variable "pvt_key" {
